@@ -91,17 +91,3 @@ public class ATMInterface {
         }
     }
 }
-
-
-
-
-
-
-private static String selectAnswer() {
-    System.out.println("A) Option A");
-    System.out.println("B) Option B");
-    System.out.println("C) Option C");
-    System.out.println("D) Option D");
-    System.out.print("Enter your answer (A/B/C/D): ");
-    return scanner.nextLine().toUpperCase();
-}
